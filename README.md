@@ -56,7 +56,7 @@ La suma se realiza uniendo el valor de 2 o más numeros (+)
  num1=6
  num2=10
  sum1=num1+num2
- print(num1,'-',num2,'=',sum1)
+ print(num1,'+',num2,'=',sum1)
 ```
 
 ```python
@@ -64,7 +64,7 @@ La suma se realiza uniendo el valor de 2 o más numeros (+)
  num1=int(input("ingrese un numero:"))
  num2=int(input("ingrese un numero:"))
  sum1=num1+num2
- print(num1,'-',num2,'=',sum1)
+ print(num1,'+',num2,'=',sum1)
 ```
 
 ### Resta
