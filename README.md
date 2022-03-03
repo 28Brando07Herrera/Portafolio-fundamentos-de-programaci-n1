@@ -176,6 +176,15 @@ dia="lunes"
 print(type(dia)) #imprimirá que tipo de dato es.
 ```
 
+## Booleano
+Una variable booleana es una variable que sólo puede tomar dos posibles valores: True (verdadero) o False (falso)
+```python
+a=True
+b=False
+c=a or b
+print (c)
+```
+
 
 ## List
 Una lista es una estructura de datos en Python que es una secuencia de elementos ordenados mutables o cambiables. Cada elemento o valor que está dentro de una lista se denomina elemento. Así como las cadenas se definen como caracteres entre comillas, las listas se definen con valores entre corchetes [ ]
@@ -197,11 +206,9 @@ Una tupla es una colección de objetos de Python separados por comas. De alguna 
 ## Dictionary
 Un Diccionario es una estructura de datos y un tipo de dato en Python con características especiales que nos permite almacenar cualquier tipo de valor como enteros, cadenas, listas e incluso otras funciones. Estos diccionarios nos permiten además identificar cada elemento por una clave (Key).
 ```python
-d= {'clave1': [1,2,3]
-    'clave2': true
-}
-printd[]
-
+versiones = dict(python=2.7, zope=2.13, plone=5.1, django=2.1)
+versiones['zope']
+2.13
 ```
 
 # Tomando decisiones
